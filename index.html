@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!--Navbar -->
+    <nav>
+      <!-- Owner-name -->
+      <div class="left-section"><a href="/">Atul Kumar</a></div>
+      <!-- Owner contact details -->
+      <div class="right-section">
+        <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github"></i>
+          <span>Github</span>
+        </a>
+        <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-linkedin-in"></i>
+          <span>Linkedin</span>
+        </a>
+        <a href="mailto.ramkanaujia63@gmail.com">
+          <i class="fa-solid fa-at"></i>
+          <span>Email</span>
+        </a>
+      </div>
+    </nav>
+    <main>
+      <!-- Section 1: Hero -->
+      <section class="hero-section">
+        <div class="text">
+          <h2>Hi, I'm Atul 👋</h2>
+          <p>
+            Hi, I’m Atul Kumar 👋 I’ve just created my first portfolio website
+            using HTML and CSS as I begin my journey in web development. I’m
+            currently pursuing skills in Full Stack Development, with the goal
+            of becoming a well-rounded developer capable of building both the
+            front-end and back-end of applications. This portfolio is my very
+            first project, and it represents the start of my coding journey. I’m
+            passionate about learning, experimenting, and improving every day.
+            My aim is to create clean, user-friendly, and efficient web
+            applications that not only work well but also look great.
+          </p>
+          <div class="links">
+            <a href="#Skills">
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+            <a href="#Testimony">
+              <i class="fa-solid fa-pen"></i>
+              <span>Testimony</span>
+            </a>
+            <a href="#Contact">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </div>
+        </div>
+        <div class="headshot">
+          <img src="/Photo/hero-headshot.webp" alt="" srcset="" />
+        </div>
+      </section>
+      <!-- section 2: Skills -->
+      <section id="skills" class="skill-section">
+        <h2>Skills</h2>
+        <div class="text">
+          I’ve learned the basics of HTML and CSS, which I use to build simple
+          and responsive web pages. I’m also practicing JavaScript (ES6+) to add
+          interactivity and make websites more dynamic. Recently, I started
+          working with React.js to create components and handle state in a more
+          organized way. On the back-end, I’m exploring Node.js and learning how
+          to build simple server-side applications. Along with these, I use Git
+          and GitHub to manage my projects. These skills are helping me take
+          small but steady steps toward becoming a Full Stack Developer.
+        </div>
+
+        <div class="cells">
+          <div class="cell">
+            <img src="/Photo/html-logo.webp" alt="HTML logo" />
+            <span>Html</span>
+          </div>
+          <div class="cell">
+            <img src="/Photo/css-logo.webp" alt="CSS logo" />
+            <span>CSS</span>
+          </div>
+          <div class="cell">
+            <img src="/Photo/javascript-logo.webp" alt="Javascript logo" />
+            <span>JavaScript</span>
+          </div>
+          <div class="cell">
+            <img src="/Photo/react-logo.webp" alt="React logo" />
+            <span>React.js</span>
+          </div>
+          <div class="cell">
+            <img src="/Photo/node-logo.webp" alt="Node logo" />
+            <span>Node.js</span>
+          </div>
+        </div>
+      </section>
+      <!-- section 3: Testimony -->
+      <section id="testimony" class="testimony-section">
+        <h2>Testimony</h2>
+        <div class="group">
+          <div class="person-details">
+            <img src="/Photo/testimony-headshot.webp" />
+            <p>Atul Kumar</p>
+            <p> Full-Stack Aspirant</p>
+          </div>
+          <div class="text">
+            "This portfolio marks my very first step into the world of web
+            development. I built it using only HTML and CSS, and it reflects my
+            dedication to learning and growing as a developer. While this is
+            just the beginning, I’m determined to keep improving and adding more
+            projects as I advance toward becoming a Full Stack Developer."
+          </div>
+        </div>
+      </section>
+      <!-- section 4: Contact -->
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+
+        <div class="group">
+          <div class="text">
+            “Have something to share or just want to say hi? Drop me a message
+            below—I’ll get back to you as soon as I can!”
+          </div>
+
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+
+            <label for="message">Message</label>
+            <textarea name="message" cols="30" rows="10"></textarea>
+
+            <button type="button">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
