@@ -25,7 +25,7 @@ const Nav = () => {
   }, []);
 
   return (
-    <nav className="fixed w-full py-5 transition-all duration-300 flex items-center justify-evenly px-8">
+    <nav className="sticky w-full py-5 transition-all duration-300 flex items-center justify-evenly px-8 bg-white/30 backdrop-blur-md h-20">
       <a
         href="#hero"
         className="text-2xl font-bold text-primary flex items-center"
