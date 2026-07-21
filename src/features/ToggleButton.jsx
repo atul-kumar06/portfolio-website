@@ -2,7 +2,6 @@ import { Moon, Sun } from "lucide-react";
 import React, { useState, useEffect } from "react";
 
 const ToggleButton = () => {
-  
   const [isDarkMode, setisDarkMode] = useState(false);
 
   useEffect(() => {
