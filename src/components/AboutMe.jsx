@@ -20,7 +20,6 @@ const aboutmedata = [
 ];
 
 const AboutMe = () => {
-  console.log(<Code />);
   return (
     <section id="about" className="min-h-screen text-foreground px-4 py-24">
       <h3 className="text-3xl md:text-5xl font-bold py-8">
